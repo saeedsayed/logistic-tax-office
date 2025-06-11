@@ -3,5 +3,6 @@
         "activityBar.background": "#402908",
         "titleBar.activeBackground": "#593A0B",
         "titleBar.activeForeground": "#FDF9F3"
-    }
+    },
+    "commentTranslate.targetLanguage": "ar"
 }

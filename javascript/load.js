@@ -1,15 +1,14 @@
 $(document).ready(function () {
-  "use strict";
-  var windoh = $(window).height();
-  $("body").height(windoh);
+  'use strict';
+  var windowHeight = $(window).height();
+  $('body').height(windowHeight);
 
-  $(".component-stert  .component--intro ").fadeOut(1000, function () {
-    $(this)
-      .parent()
-      .fadeOut(1000, function () {
-        $("body").css("overflow", "auto");
-        $(this).remove();
-        $("body").height("100%");
-      });
-  });
-});
+  $(".main-loader  .pulse-logo").fadeOut(1000, function () {
+    $(this).parent().fadeOut(1000, function () {
+      $("body").css("overflow", "auto");
+      $(this).remove();
+      $('body').height("100%");
+    });
+  }
+  );
+})

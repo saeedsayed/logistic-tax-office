@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style: none;
 }
 
@@ -13,7 +13,7 @@
   --white-color: #effdfc;
   --black-color: #000;
   /* --light-blue-color: #effdfc; */
-   --font-family: "Space Grotesk", sans-serif;
+  --font-family: "Space Grotesk", sans-serif;
 }
 body {
   font-family: "Space Grotesk", sans-serif;
@@ -39,7 +39,7 @@ body {
   max-width: 400px;
 }
 
-.pulse-logo img{
+.pulse-logo img {
   max-width: 100%;
 }
 
@@ -56,7 +56,7 @@ body {
   animation: spin 1.5s infinite;
 }
 
-@keyframes spin{
+@keyframes spin {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
   }

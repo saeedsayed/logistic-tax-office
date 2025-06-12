@@ -11,6 +11,8 @@
   --orange-color: #e76404;
   --olive-color: #c3a869;
   --white-color: #effdfc;
+  --black-color: #000;
+  /* --light-blue-color: #effdfc; */
 }
 body {
   font-family: "Space Grotesk", sans-serif;

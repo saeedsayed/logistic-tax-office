@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none !important;
+  text-decoration: none !important;
   list-style: none;
 }
 
@@ -12,8 +13,8 @@
   --olive-color: #c3a869;
   --white-color: #effdfc;
   --black-color: #000;
-  /* --light-blue-color: #effdfc; */
-  --font-family: "Space Grotesk", sans-serif;
+  --light-blue-color: #effdfc;
+  font-size: 17px;
 }
 
 html::selection {
@@ -25,7 +26,13 @@ html::selection {
 body {
   font-family: "Space Grotesk", sans-serif;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin-block-end: 0;
+}
 .main-loader {
   display: flex;
   align-items: center;
@@ -61,6 +68,22 @@ body {
   border-top: 3px solid var(--olive-color);
   border-radius: 50%;
   animation: spin 1.5s infinite;
+}
+
+.rounded-z-lg {
+  border-start-start-radius: 100px;
+  border-end-end-radius: 100px;
+  overflow: hidden;
+}
+.rounded-z-md {
+  border-start-start-radius: 50px;
+  border-end-end-radius: 50px;
+  overflow: hidden;
+}
+.rounded-z-sm {
+  border-start-start-radius: 30px;
+  border-end-end-radius: 30px;
+  overflow: hidden;
 }
 
 @keyframes spin {

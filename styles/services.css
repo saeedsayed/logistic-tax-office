@@ -57,6 +57,7 @@
 }
 .service-card:hover{
   transform: translateY(-10px);
+  color: var(--orange-color);
 }
 .service-card_img{
   width: 90px;

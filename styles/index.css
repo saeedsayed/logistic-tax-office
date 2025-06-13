@@ -12,7 +12,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  padding-block-end: 120px;
   overflow-x: hidden;
   padding-top: 180px;
 }
@@ -99,7 +99,7 @@
 
 @media (max-width: 950px) {
   .hero {
-    height: 100vh;
+      padding-block-end: 100px;
   }
 
   .hero .container {
@@ -140,7 +140,7 @@
     margin-bottom: 0;
   }
   .hero {
-    height: 100vh;
+     padding-block-end: 80px;
   }
 }
 

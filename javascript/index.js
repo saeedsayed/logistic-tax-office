@@ -9,6 +9,10 @@ drop_add.addEventListener("click", () => {
   plus.classList.toggle("active");
   minus.classList.toggle("active");
   drobdwon.classList.toggle("active");
+  // remove actiev
+  text_noneM.classList.remove("active");
+  plusM.classList.remove("active");
+  minusM.classList.remove("active");
 });
 
 // MISSION
@@ -22,6 +26,10 @@ drop_mission.addEventListener("click", () => {
   text_noneM.classList.toggle("active");
   plusM.classList.toggle("active");
   minusM.classList.toggle("active");
+  // remove actiev
+  text_none.classList.add("active");
+  plus.classList.add("active");
+  minus.classList.add("active");
 });
 
 // header
@@ -34,5 +42,11 @@ window.addEventListener("scroll", () => {
     console.log("scroll");
   } else {
     header.classList.remove("active");
+  }
+});
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    console.log(scrollY);
   }
 });

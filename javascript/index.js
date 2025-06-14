@@ -16,7 +16,6 @@ drop_add.addEventListener("click", () => {
 });
 
 // MISSION
-
 var plusM = document.getElementById("plusM");
 var minusM = document.getElementById("minusM");
 var drop_mission = document.getElementById("drop_mission");
@@ -32,10 +31,8 @@ drop_mission.addEventListener("click", () => {
   minus.classList.add("active");
 });
 
-// header
-
+// add background  header
 var header = document.getElementById("header");
-
 window.addEventListener("scroll", () => {
   if (window.scrollY > 200) {
     header.classList.add("active");
@@ -45,8 +42,39 @@ window.addEventListener("scroll", () => {
   }
 });
 
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
-    console.log(scrollY);
-  }
+// add class list active to header | responsive And select to elements
+
+var dropList_header = document.getElementById("dropList_header");
+var services_plus = document.getElementById("services_plus");
+var service_minus = document.getElementById("service_minus");
+var add_to_active = document.getElementById("add_to_active");
+var close_header = document.getElementById("close_header");
+var header_responsive = document.getElementById("header_responsive");
+var open_header = document.getElementById("open_header");
+
+function headerResponsive() {
+  dropList_header.classList.toggle("active");
+  services_plus.classList.toggle("active");
+  service_minus.classList.toggle("active");
+}
+
+add_to_active.addEventListener("click", () => {
+  headerResponsive();
+});
+
+// Open And Close Header
+
+function closeHeader() {
+  header_responsive.classList.remove("active");
+}
+function openHeader() {
+  header_responsive.classList.add("active");
+}
+
+close_header.addEventListener("click", () => {
+  closeHeader();
+});
+
+open_header.addEventListener("click", () => {
+  openHeader();
 });

@@ -39,7 +39,13 @@
       </div>
     </div>
     <!--Start header -->
-    <header class="header" id="header">
+
+    <header
+      class="header"
+      id="header"
+      data-aos="fade-down"
+      data-aos-delay="600"
+    >
       <div class="container">
         <a class="logo" href="/">
           <img src="../assets/images/logo.png" alt="" />
@@ -71,7 +77,9 @@
                   <a href="">regulatory compliance </a>
                 </li>
                 <li>
-                  <a href="">Accounting services </a>
+                  <a href="/en/services/accounting-service.html"
+                    >Accounting services
+                  </a>
                 </li>
                 <li>
                   <a href="">risk consulting </a>
@@ -82,7 +90,7 @@
               </div>
             </div>
             <li>
-              <a href="./en/contact.html">contact</a>
+              <a href="/en/contact.html">contact</a>
             </li>
             <button class="btn">get Brochure</button>
           </ul>
@@ -93,7 +101,7 @@
     <!-- start hero -->
     <section class="hero">
       <div class="container">
-        <div class="text">
+        <div class="text" data-aos="fade-right" data-aos-delay="600">
           <div class="audit">
             <h3></h3>
             <h2>Your Audit Partner</h2>
@@ -147,7 +155,7 @@
     <!-- start boxes -->
     <section class="boxes">
       <div class="container">
-        <div class="box">
+        <div class="box" data-aos="fade-right">
           <div class="icon">
             <img src="../assets/images/1 (4).png" alt="" class="block" />
             <img src="../assets/images/1 (3).png" alt="" class="none" />
@@ -173,7 +181,7 @@
             </p>
           </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-left">
           <div class="icon">
             <img src="../assets/images/3 (2).png" alt="" class="block" />
             <img src="../assets/images/3.png" alt="" class="none" />
@@ -192,7 +200,7 @@
     <!-- start aboutUs -->
     <section class="aboutUs">
       <div class="container">
-        <div class="images">
+        <div class="images" data-aos="fade-right">
           <img src="../assets/images/about-4.png" alt="" />
         </div>
         <div class="text">
@@ -321,7 +329,7 @@
         <div class="why_text">
           <div class="why_top">
             <h3></h3>
-            <h4>Our Services</h4>
+            <h4>Why Us</h4>
           </div>
           <h2>Unmatched Expertise,</h2>
           <h2>Integrity, & Personalized</h2>
@@ -366,7 +374,7 @@
           </div>
           <!--  -->
         </div>
-        <div class="why_images">
+        <div class="why_images" data-aos="fade-left">
           <img src="../assets/images/about.png" alt="" />
         </div>
       </div>
@@ -386,8 +394,8 @@
           id="carouselExampleSlidesOnly_2"
           class="carousel slide"
           data-bs-ride="carousel"
-           data-bs-interval="3000"
-           data-bs-pause="false"
+          data-bs-interval="3000"
+          data-bs-pause="false"
         >
           <div class="carousel-inner sliders">
             <div class="carousel-item active items">
@@ -577,7 +585,7 @@
     <!-- footer -->
     <footer>
       <div class="container">
-        <div class="box">
+        <div class="box" data-aos="fade-down">
           <h2>About Company</h2>
           <h3></h3>
           <p>
@@ -617,7 +625,7 @@
             </li>
           </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down">
           <h2>Contact Info</h2>
           <h3></h3>
 
@@ -638,7 +646,7 @@
             </li>
           </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down">
           <h2>Featured Services</h2>
           <h3></h3>
 
@@ -650,7 +658,7 @@
             <li>Business Planning</li>
           </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down">
           <h2>Recent Articles</h2>
           <h3></h3>
 
@@ -674,19 +682,21 @@
       </div>
       <div class="footr_bottom">
         <div class="container">
-          <p>&copy; 2024 AMA AUDIT Designed By AH Digi</p>
-          <div class="links">
+          <p data-aos="fade-right" data-aos-offset="0">
+            &copy; 2024 AMA AUDIT Designed By AH Digi
+          </p>
+          <div class="links" data-aos="fade-left" data-aos-offset="0">
             <li>
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="/en/about.html">About</a>
             </li>
             <li>
               <a href="./en/services.html">Services</a>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <a href="/en/contact.html">Contact</a>
             </li>
           </div>
         </div>
@@ -709,9 +719,7 @@
     ></script>
     <!-- js AOS V2.3.4-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <!--  -->
     <script src="../javascript/load.js"></script>
     <script src="../javascript/index.js"></script>
     <script src="../javascript/main.js"></script>

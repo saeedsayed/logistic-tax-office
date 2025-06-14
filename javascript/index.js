@@ -31,22 +31,3 @@ drop_mission.addEventListener("click", () => {
   plus.classList.add("active");
   minus.classList.add("active");
 });
-
-// header
-
-var header = document.getElementById("header");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 200) {
-    header.classList.add("active");
-    console.log("scroll");
-  } else {
-    header.classList.remove("active");
-  }
-});
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
-    console.log(scrollY);
-  }
-});

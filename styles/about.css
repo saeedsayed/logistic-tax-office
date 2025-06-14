@@ -1,0 +1,154 @@
+.aboutUs{
+    margin-block: 120px;
+}
+
+.aboutUs .container .images {
+  width: 50%;
+}
+.aboutUs .container .images img {
+  width: 100%;
+}
+.aboutUs .container .text {
+  width: 47%;
+}
+
+.aboutUs .aboutUs_text {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.aboutUs .aboutUs_text h3 {
+  position: relative;
+}
+.aboutUs .aboutUs_text h3::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 12px;
+  background-color: var(--olive-color);
+  top: 2px;
+}
+.aboutUs .aboutUs_text h4 {
+  font-size: 15px;
+  font-family: var(--font-family);
+  color: var(--olive-color);
+}
+
+.aboutUs h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+
+.aboutUs .before {
+  position: relative;
+}
+
+.aboutUs .before::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 50%;
+  height: 35%;
+  background-color: var(--olive-color);
+  top: 50%;
+  left: 7%;
+}
+
+.aboutUs p {
+  font-size: 17px;
+  font-family: var(--font-family);
+  color: #454545;
+  margin-top: 30px;
+}
+
+.aboutUs .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 35px;
+}
+.aboutUs .list li {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 16px;
+  color: #454545;
+}
+
+.aboutUs .list li i {
+  color: #21547c;
+  font-size: 18px;
+}
+
+.aboutUs .experience {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs .experience h2 {
+  font-size: 36px;
+  color: #ff6d00;
+}
+.aboutUs .experience h3 {
+  font-size: 18px;
+  font-family: var(--font-family);
+  color: #454545;
+}
+
+.aboutUs .experience .borders {
+  height: 80px;
+  width: 1px;
+  background-color: var(--olive-color);
+}
+
+.aboutUs button {
+  background-color: #2a1a52;
+  color: white;
+  margin-top: 35px;
+}
+/* responsive */
+
+@media (max-width: 950px) {
+  .aboutUs .container {
+    flex-direction: column;
+    margin-top: 150px;
+  }
+
+  .aboutUs .container .images {
+    width: 100%;
+  }
+  .aboutUs .container .images img {
+    width: 100%;
+  }
+  .aboutUs .container .text {
+    width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .aboutUs .container {
+    width: 95% !important;
+  }
+  .aboutUs .aboutUs_text {
+    margin-top: 25px;
+  }
+  .aboutUs h2 {
+    font-size: 22px;
+  }
+  .aboutUs p {
+    font-size: 15px;
+  }
+  .aboutUs .experience {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .aboutUs .experience .borders {
+    height: 0;
+    width: 0;
+  }
+  .aboutUs .experience h2 {
+    font-size: 32px;
+  }
+}

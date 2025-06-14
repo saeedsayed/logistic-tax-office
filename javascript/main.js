@@ -26,6 +26,6 @@ if (subsOdometer.length > 0 && typeof Odometer !== 'undefined') {
 }
 AOS.init({
     offset: 120,
-    duration: 500,
+    duration: 1000,
     once: false,
 });

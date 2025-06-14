@@ -1,44 +1,3 @@
-.banner {
-  background-image: url("../assets/images/service/large-banner.png");
-  background-position: center;
-  padding: 215px 0;
-  border-start-start-radius: 150px;
-}
-.page-title {
-  color: var(--white-color);
-  font-size: 60px;
-  font-weight: 700;
-  position: relative;
-  letter-spacing: -2px;
-}
-
-.page-title::before {
-  content: attr(data-watermark);
-  position: absolute;
-  font-size: 150px;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-family: "Space Grotesk", sans-serif;
-  opacity: 0.05;
-  width: 100%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  color: inherit;
-  white-space: nowrap;
-  vertical-align: middle;
-}
-.page-title::after {
-  content: "";
-  height: 5px;
-  position: absolute;
-  top: -20px;
-  left: 0;
-  transition: all 0.3s ease;
-  background: #e76404;
-  width: 65px;
-  margin: 0 auto;
-}
 /* services section */
 .services-section {
   padding: 120px 0;
@@ -55,11 +14,25 @@
   color: var(--black-color);
   cursor: pointer;
 }
-.service-card:hover{
+.service-card:hover {
   transform: translateY(-10px);
   color: var(--orange-color);
 }
-.service-card_img{
+.service-card_img {
   width: 90px;
   aspect-ratio: 1/1;
+}
+
+@media (max-width: 768px) {
+  /* services section */
+  .services-section {
+    padding: 60px 0;
+  }
+  .service-card {
+    padding: 20px 25px;
+  }
+  .service-card_img {
+    width: 90px;
+    aspect-ratio: 1/1;
+  }
 }

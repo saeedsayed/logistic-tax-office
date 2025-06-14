@@ -1,3 +1,4 @@
+@import "./main.css";
 /* counter card */
 .counter-card {
   background-color: var(--light-blue-color);

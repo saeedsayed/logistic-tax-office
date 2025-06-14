@@ -36,8 +36,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- CSS MAIN STYLES -->
-    <link rel="stylesheet" href="../../styles/main.css" />
     <!-- CUSTOM CSS FOR CURRENT PAGE STYLES -->
     <link rel="stylesheet" href="../../styles/service.css" />
   </head>
@@ -49,7 +47,7 @@
       </div>
     </div>
     <!-- end loading page -->
-    <!--Start header -->
+     <!--Start header -->
 
     <header
       class="header"
@@ -58,56 +56,158 @@
       data-aos-delay="600"
     >
       <div class="container">
-        <a class="logo" href="/">
-          <img src="../assets/images/logo.png" alt="" />
-        </a>
-        <div class="links">
-          <ul>
-            <li>
-              <a href="/">home</a>
-            </li>
-            <li>
-              <a href="/en/about.html"> About</a>
-            </li>
-            <div class="drobdwon">
-              <li><a href="/en/services.html">Services</a></li>
-              <div class="drop_links">
-                <li>
-                  <a href="">Business conftinuity plan</a>
-                </li>
-                <li>
-                  <a href="">Advisory </a>
-                </li>
-                <li>
-                  <a href="">cost optimzation </a>
-                </li>
-                <li>
-                  <a href="">Audit Assurance</a>
-                </li>
-                <li>
-                  <a href="">regulatory compliance </a>
-                </li>
-                <li>
-                  <a href="/en/services/accounting-service.html"
-                    >Accounting services
-                  </a>
-                </li>
-                <li>
-                  <a href="">risk consulting </a>
-                </li>
-                <li>
-                  <a href="">human resorce services </a>
-                </li>
+        <div class="d-flex justify-content-between align-items-center">
+          <a class="logo" href="/">
+            <img src="../assets/images/logo.png" alt="" />
+          </a>
+          <div>
+            <ul class="links mb-0">
+              <li>
+                <a href="/">home</a>
+              </li>
+              <li>
+                <a href="/en/about.html"> About</a>
+              </li>
+              <div class="dropdown">
+                <li><a href="/en/services.html">Services</a></li>
+                <div class="drop_links">
+                  <li>
+                    <a href="">Business conftinuity plan</a>
+                  </li>
+                  <li>
+                    <a href="">Advisory </a>
+                  </li>
+                  <li>
+                    <a href="">cost optimzation </a>
+                  </li>
+                  <li>
+                    <a href="">Audit Assurance</a>
+                  </li>
+                  <li>
+                    <a href="">regulatory compliance </a>
+                  </li>
+                  <li>
+                    <a href="/en/services/accounting-service.html"
+                      >Accounting services
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">risk consulting </a>
+                  </li>
+                  <li>
+                    <a href="">human resorce services </a>
+                  </li>
+                </div>
               </div>
+              <li>
+                <a href="/en/contact.html">contact</a>
+              </li>
+              <button class="btn">get Brochure</button>
+            </ul>
+            <span class="menu" id="openSidebar">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- mobile nav -->
+      <div class="sidebar" id="sidebar">
+        <p class="close" id="closeSidebar">
+          <i class="fa-solid fa-xmark"></i>
+        </p>
+        <ul class="sidebar_links">
+          <li class="sidebar_links--item">
+            <a href="/" class="sidebar_links--link">home</a>
+          </li>
+          <li class="sidebar_links--item">
+            <a href="/en/about.html" class="sidebar_links--link">about</a>
+          </li>
+          <li class="sidebar_links--item">
+            <div class="d-flex justify-content-between" id="dropdown-btn">
+              <a href="/en/services.html" class="sidebar_links--link"
+                >services</a
+              >
+              <i class="fa-solid fa-plus" id="service_plus"></i>
+              <i class="fa-solid fa-minus" id="service_minus"></i>
             </div>
-            <li>
-              <a href="/en/contact.html">contact</a>
-            </li>
-            <button class="btn">get Brochure</button>
-          </ul>
+            <ul class="sidebar_dropdown--menu" id="dropdown-menu">
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+              <li class="sidebar_dropdown--item">
+                <a href="#" class="sidebar_dropdown--link"
+                  >Business conftinuity plan</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="sidebar_links--item">
+            <a href="/en/contact.html" class="sidebar_links--link">contact</a>
+          </li>
+        </ul>
+        <div class="sidebar_contact--info">
+          <div class="icon">
+            <img src="./assets/images_Contact/assets (4).png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Address</h3>
+            <li>Dubai | Abu Dhabi</li>
+          </div>
+        </div>
+        <div class="sidebar_contact--info">
+          <div class="icon">
+            <img src="./assets/images_Contact/assets (3).png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Email</h3>
+            <li>amao2004@amauae.com</li>
+          </div>
+        </div>
+        <div class="sidebar_contact--info">
+          <div class="icon">
+            <img src="./assets/images_Contact/assets (5).png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Phone</h3>
+            <li>+97126222318</li>
+          </div>
         </div>
       </div>
     </header>
+
     <!--end header -->
     <!-- banner section -->
     <div class="page-heading">

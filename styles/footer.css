@@ -58,21 +58,21 @@ footer .container .box p {
 }
 
 footer .container .box .list {
+  padding-inline-start: 0;
+  margin-top: 12px;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
   gap: 10px;
-  width: 80%;
 }
 
-footer .container .box .list li {
+footer .container .box .list li a {
+  display: block;
   width: 30px;
   height: 30px;
   background-color: #191529;
   text-align: center;
   line-height: 30px;
-}
-footer .container .box .list li a {
   color: var(--white-color) !important;
   transition: 0.2s;
 }

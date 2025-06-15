@@ -31,359 +31,377 @@
     <link rel="stylesheet" href="../styles/about.css" />
   </head>
   <body>
-    <!-------------------------start-loading-pag------------------------->
-    <div class="main-loader">
-      <div class="pulse-logo">
-        <img src="../assets/images/logo.png" alt="logo" />
+    <div class="page-wrapper">
+      <!-------------------------start-loading-pag------------------------->
+      <div class="main-loader">
+        <div class="pulse-logo">
+          <img src="../assets/images/logo.png" alt="logo" />
+        </div>
       </div>
-    </div>
-    <!--Start header -->
+      <!--Start header -->
 
-    <header
-      class="header"
-      id="header"
-      data-aos="fade-down"
-      data-aos-delay="600"
-    >
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <a class="logo" href="/">
-            <img src="../assets/images/logo.png" alt="" />
-          </a>
-          <div>
-            <ul class="links mb-0">
-              <li>
-                <a href="/">home</a>
-              </li>
-              <li>
-                <a href="/en/about.html"> About</a>
-              </li>
-              <div class="dropdown">
-                <li><a href="/en/services.html">Services</a></li>
-                <div class="drop_links">
-                  <li>
-                    <a href="">Business conftinuity plan</a>
-                  </li>
-                  <li>
-                    <a href="">Advisory </a>
-                  </li>
-                  <li>
-                    <a href="">cost optimzation </a>
-                  </li>
-                  <li>
-                    <a href="">Audit Assurance</a>
-                  </li>
-                  <li>
-                    <a href="">regulatory compliance </a>
-                  </li>
-                  <li>
-                    <a href="/en/services/accounting-service.html"
-                      >Accounting services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">risk consulting </a>
-                  </li>
-                  <li>
-                    <a href="">human resorce services </a>
-                  </li>
+      <header
+        class="header"
+        id="header"
+        data-aos="fade-down"
+        data-aos-delay="600"
+      >
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <a class="logo" href="/">
+              <img src="../assets/images/logo.png" alt="" />
+            </a>
+            <div>
+              <ul class="links mb-0">
+                <li>
+                  <a href="/">home</a>
+                </li>
+                <li>
+                  <a href="/en/about.html"> About</a>
+                </li>
+                <div class="dropdown">
+                  <li><a href="/en/services.html">Services</a></li>
+                  <div class="drop_links">
+                    <li>
+                      <a href="">Business conftinuity plan</a>
+                    </li>
+                    <li>
+                      <a href="">Advisory </a>
+                    </li>
+                    <li>
+                      <a href="">cost optimzation </a>
+                    </li>
+                    <li>
+                      <a href="">Audit Assurance</a>
+                    </li>
+                    <li>
+                      <a href="">regulatory compliance </a>
+                    </li>
+                    <li>
+                      <a href="/en/services/accounting-service.html"
+                        >Accounting services
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">risk consulting </a>
+                    </li>
+                    <li>
+                      <a href="">human resorce services </a>
+                    </li>
+                  </div>
+                </div>
+                <li>
+                  <a href="/en/contact.html">contact</a>
+                </li>
+                <button class="btn">get Brochure</button>
+              </ul>
+              <span class="menu" id="openSidebar">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="sidebar" id="sidebar">
+          <p class="close" id="closeSidebar">
+            <i class="fa-solid fa-xmark"></i>
+          </p>
+          <ul class="sidebar_links">
+            <li class="sidebar_links--item">
+              <a href="/" class="sidebar_links--link">home</a>
+            </li>
+            <li class="sidebar_links--item">
+              <a href="/en/about.html" class="sidebar_links--link">about</a>
+            </li>
+            <li class="sidebar_links--item">
+              <div class="d-flex justify-content-between" id="dropdown-btn">
+                <a href="/en/services.html" class="sidebar_links--link"
+                  >services</a
+                >
+                <i class="fa-solid fa-plus" id="service_plus"></i>
+                <i class="fa-solid fa-minus" id="service_minus"></i>
+              </div>
+              <ul class="sidebar_dropdown--menu" id="dropdown-menu">
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+                <li class="sidebar_dropdown--item">
+                  <a href="#" class="sidebar_dropdown--link"
+                    >Business conftinuity plan</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="sidebar_links--item">
+              <a href="/en/contact.html" class="sidebar_links--link">contact</a>
+            </li>
+          </ul>
+          <div class="sidebar_contact--info">
+            <div class="icon">
+              <img src="./assets/images_Contact/assets (4).png" alt="" />
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <li>Dubai | Abu Dhabi</li>
+            </div>
+          </div>
+          <div class="sidebar_contact--info">
+            <div class="icon">
+              <img src="./assets/images_Contact/assets (3).png" alt="" />
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <li>amao2004@amauae.com</li>
+            </div>
+          </div>
+          <div class="sidebar_contact--info">
+            <div class="icon">
+              <img src="./assets/images_Contact/assets (5).png" alt="" />
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <li>+97126222318</li>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--end header -->
+      <!-- banner section -->
+      <div class="page-heading">
+        <div class="container">
+          <h2 class="page-title" data-watermark="About">About Us</h2>
+        </div>
+      </div>
+      <!-- start aboutUs -->
+      <section class="aboutUs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="images">
+              <img src="../assets/images/about-4.png" alt="" />
+            </div>
+            <div class="text">
+              <div class="aboutUs_text">
+                <h3></h3>
+                <h4>ABOUT US</h4>
+              </div>
+              <h2>over 10 years of experience</h2>
+              <h2 class="before"><span>in</span> Audit Services.</h2>
+              <p>
+                Welcome to Logistic, where expertise meets commitment to elevate
+                your organization's potential. We pride ourselves on our
+                standing in the global market, having secured the second
+                position, just behind Google, in a prestigious index ranking the
+                world's most attractive employers.
+              </p>
+              <div class="list">
+                <li>
+                  <i class="fa-regular fa-circle-check"></i>
+                  We embrace adaptability, constantly evolving to keep pace with
+                  market changes.
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i>
+                  Our success is built on unwavering diligence & a deep
+                  commitment to meeting our clients
+                </li>
+                <li>
+                  <i class="fa-regular fa-circle-check"></i>
+                  Central to our achievements are our valued employees, who are
+                  the heartbeat of our organization.
+                </li>
+              </div>
+              <div class="experience">
+                <div>
+                  <h2>5,000 <i class="fa-solid fa-plus"></i></h2>
+                  <h3>happy clients</h3>
+                </div>
+                <h2 class="borders"></h2>
+                <div>
+                  <h2>20 <i class="fa-solid fa-plus"></i></h2>
+                  <h3>Years of Experience</h3>
                 </div>
               </div>
-              <li>
-                <a href="/en/contact.html">contact</a>
-              </li>
-              <button class="btn">get Brochure</button>
-            </ul>
-            <span class="menu" id="openSidebar">
-              <i class="fa-solid fa-bars"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-      <!-- mobile nav -->
-      <div class="sidebar" id="sidebar">
-        <p class="close" id="closeSidebar">
-          <i class="fa-solid fa-xmark"></i>
-        </p>
-        <ul class="sidebar_links">
-          <li class="sidebar_links--item">
-            <a href="/" class="sidebar_links--link">home</a>
-          </li>
-          <li class="sidebar_links--item">
-            <a href="/en/about.html" class="sidebar_links--link">about</a>
-          </li>
-          <li class="sidebar_links--item">
-            <div class="d-flex justify-content-between" id="dropdown-btn">
-              <a href="/en/services.html" class="sidebar_links--link"
-                >services</a
-              >
-              <i class="fa-solid fa-plus" id="service_plus"></i>
-              <i class="fa-solid fa-minus" id="service_minus"></i>
             </div>
-            <ul class="sidebar_dropdown--menu" id="dropdown-menu">
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-              <li class="sidebar_dropdown--item">
-                <a href="#" class="sidebar_dropdown--link"
-                  >Business conftinuity plan</a
-                >
-              </li>
-            </ul>
-          </li>
-
-          <li class="sidebar_links--item">
-            <a href="/en/contact.html" class="sidebar_links--link">contact</a>
-          </li>
-        </ul>
-        <div class="sidebar_contact--info">
-          <div class="icon">
-            <img src="./assets/images_Contact/assets (4).png" alt="" />
           </div>
-          <div class="text">
-            <h3>Address</h3>
-            <li>Dubai | Abu Dhabi</li>
-          </div>
+          <p>
+            Guided by our Code of Conduct, we uphold our core values, share
+            responsibilities, and remain steadfast in our commitment to our
+            people, clients, and the wider community. Caring for our community
+            is ingrained in our DNA, and we take immense pride in our global
+            approach to community engagement, building upon our active local
+            involvement.
+          </p>
         </div>
-        <div class="sidebar_contact--info">
-          <div class="icon">
-            <img src="./assets/images_Contact/assets (3).png" alt="" />
-          </div>
-          <div class="text">
-            <h3>Email</h3>
-            <li>amao2004@amauae.com</li>
-          </div>
-        </div>
-        <div class="sidebar_contact--info">
-          <div class="icon">
-            <img src="./assets/images_Contact/assets (5).png" alt="" />
-          </div>
-          <div class="text">
-            <h3>Phone</h3>
-            <li>+97126222318</li>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!--end header -->
-    <!-- banner section -->
-    <div class="page-heading">
-      <div class="container">
-        <h2 class="page-title" data-watermark="About">About Us</h2>
-      </div>
-    </div>
-    <!-- start aboutUs -->
-    <section class="aboutUs">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="images">
-            <img src="../assets/images/about-4.png" alt="" />
-          </div>
-          <div class="text">
-            <div class="aboutUs_text">
-              <h3></h3>
-              <h4>ABOUT US</h4>
-            </div>
-            <h2>over 10 years of experience</h2>
-            <h2 class="before"><span>in</span> Audit Services.</h2>
+      </section>
+      <!-- end aboutUs -->
+      <!-- footer -->
+         <footer>
+        <div class="container">
+          <div class="box" data-aos="fade-down">
+            <h2>About Company</h2>
+            <h3></h3>
             <p>
               Welcome to Logistic, where expertise meets commitment to elevate
-              your organization's potential. We pride ourselves on our standing
-              in the global market, having secured the second position, just
-              behind Google, in a prestigious index ranking the world's most
-              attractive employers.
+              your organization's potential.
             </p>
-            <div class="list">
+            <ul class="list">
               <li>
-                <i class="fa-regular fa-circle-check"></i>
-                We embrace adaptability, constantly evolving to keep pace with
-                market changes.
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577035547110"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
               </li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>
-                Our success is built on unwavering diligence & a deep commitment
-                to meeting our clients
+                <a href="https://x.com/Logistictax" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
               </li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>
-                Central to our achievements are our valued employees, who are
-                the heartbeat of our organization.
+                <a
+                  href="http://www.linkedin.com/in/logistic-accounting-and-tax-solutions-03790236b"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.snapchat.com/add/logistic_tax"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-snapchat"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="box" data-aos="fade-down">
+            <h2>Contact Info</h2>
+            <h3></h3>
+
+            <div class="order_list">
+              <li>
+                <i class="fa-solid fa-house-user"></i>
+                pAbu Dhabi, <br />
+                United Arab <br />
+                Emarates
+              </li>
+              <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="tel:"> 0097156465484 </a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="email:ahmed@gmail.com">ahmed@gmail.com</a>
               </li>
             </div>
-            <div class="experience">
-              <div>
-                <h2>5,000 <i class="fa-solid fa-plus"></i></h2>
-                <h3>happy clients</h3>
-              </div>
-              <h2 class="borders"></h2>
-              <div>
-                <h2>20 <i class="fa-solid fa-plus"></i></h2>
-                <h3>Years of Experience</h3>
-              </div>
+          </div>
+          <div class="box" data-aos="fade-down">
+            <h2>Featured Services</h2>
+            <h3></h3>
+
+            <div class="order_list">
+              <li>
+                <a href="/en/services/advisory.html">Advisory</a>
+              </li>
+              <li>
+                <a href="en/services/accounting.html">Accounting Service</a>
+              </li>
+              <li>
+                <a href="en/services/financial.html">Financial Services</a>
+              </li>
+              <li>
+                <a href="en/services/cost-optimization.html"
+                  >Cost Optimization</a
+                >
+              </li>
+              <li>
+                <a href="/en/services/business-continuity.html"
+                  >Business Planning
+                </a>
+              </li>
+            </div>
+          </div>
+          <div class="box" data-aos="fade-down">
+            <h2>Recent Articles</h2>
+            <h3></h3>
+
+            <div class="order_list">
+              <li>
+                <a href="">How Accounting in dependend your business growth.</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-calendar-days"></i>
+                March 09,2024
+              </li>
+              <li>
+                <a href="">How Accounting in dependend your business growth.</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-calendar-days"></i>
+                March 09,2024
+              </li>
             </div>
           </div>
         </div>
-        <p>
-          Guided by our Code of Conduct, we uphold our core values, share
-          responsibilities, and remain steadfast in our commitment to our
-          people, clients, and the wider community. Caring for our community is
-          ingrained in our DNA, and we take immense pride in our global approach
-          to community engagement, building upon our active local involvement.
-        </p>
-      </div>
-    </section>
-    <!-- end aboutUs -->
-    <!-- footer -->
-    <footer>
-      <div class="container">
-        <div class="box">
-          <h2>About Company</h2>
-          <h3></h3>
-          <p>
-            Welcome to Abdul Majeed Al Marzooqi, where expertise meets
-            commitment to elevate your organization's potential.
-          </p>
-          <div class="list">
-            <li>
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="fa-brands fa-tiktok"></i>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-            </li>
+        <div class="footr_bottom">
+          <div class="container">
+            <p data-aos="fade-right" data-aos-offset="0">
+              &copy; 2024 Logistic Accounting Designed By AH Digi
+            </p>
+            <div class="links" data-aos="fade-left" data-aos-offset="0">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/en/about.html">About</a>
+              </li>
+              <li>
+                <a href="./en/services.html">Services</a>
+              </li>
+              <li>
+                <a href="/en/contact.html">Contact</a>
+              </li>
+            </div>
           </div>
         </div>
-        <div class="box">
-          <h2>Contact Info</h2>
-          <h3></h3>
-
-          <div class="order_list">
-            <li>
-              <i class="fa-solid fa-house-user"></i>
-              pAbu Dhabi, <br />
-              United Arab <br />
-              Emarates
-            </li>
-            <li>
-              <i class="fa-solid fa-phone-volume"></i>
-              <a href="tel:"> 0097156465484 </a>
-            </li>
-            <li>
-              <i class="fa-solid fa-envelope"></i>
-              <a href="email:ahmed@gmail.com">ahmed@gmail.com</a>
-            </li>
-          </div>
-        </div>
-        <div class="box">
-          <h2>Featured Services</h2>
-          <h3></h3>
-
-          <div class="order_list">
-            <li>Advisory</li>
-            <li>Audit Service</li>
-            <li>Accounting</li>
-            <li>Cost Effective</li>
-            <li>Business Planning</li>
-          </div>
-        </div>
-        <div class="box">
-          <h2>Recent Articles</h2>
-          <h3></h3>
-
-          <div class="order_list">
-            <li>
-              <a href="">How Auditing in dependend your business growth.</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-calendar-days"></i>
-              March 09,2024
-            </li>
-            <li>
-              <a href="">How Auditing in dependend your business growth.</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-calendar-days"></i>
-              March 09,2024
-            </li>
-          </div>
-        </div>
-      </div>
-      <div class="footr_bottom">
-        <div class="container">
-          <p>&copy; 2024 AMA AUDIT Designed By AH Digi</p>
-          <div class="links">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/">About</a>
-            </li>
-            <li>
-              <a href="./en/services.html">Services</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
-            </li>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <!-- js BOOTSTRAP V5.0.1 -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"

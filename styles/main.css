@@ -37,9 +37,8 @@ p {
 }
 .page-wrapper {
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
-  /* overflow-y: auto; */
   position: relative;
 }
 /* main loading section (full screen) */

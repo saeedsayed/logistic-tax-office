@@ -28,6 +28,7 @@ html::selection {
 body {
   font-family: "Space Grotesk", sans-serif;
   overflow-x: hidden !important;
+  position: relative;
 }
 img {
   max-width: 100%;

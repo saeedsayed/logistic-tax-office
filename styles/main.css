@@ -27,8 +27,6 @@ html::selection {
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  overflow-x: hidden !important;
-  position: relative;
 }
 img {
   max-width: 100%;
@@ -36,6 +34,13 @@ img {
 }
 p {
   margin-block-end: 0;
+}
+.page-wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
 }
 /* main loading section (full screen) */
 .main-loader {

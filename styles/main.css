@@ -162,20 +162,20 @@ p {
 }
 
 @media (max-width: 768px) {
-.page-heading {
-  padding: 135px 0;
-  border-start-start-radius: 70px;
-}
-.page-title {
-  font-size: 30px;
-}
+  .page-heading {
+    padding: 135px 0;
+    border-start-start-radius: 70px;
+  }
+  .page-title {
+    font-size: 30px;
+  }
 
-.page-title::before {
-  font-size: 70px;
-}
-.page-title::after {
-  top: -15px;
-}
+  .page-title::before {
+    font-size: 70px;
+  }
+  .page-title::after {
+    top: -15px;
+  }
 }
 /* responsive containers */
 @media (min-width: 576px) {

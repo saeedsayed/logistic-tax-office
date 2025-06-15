@@ -113,11 +113,6 @@
 /* responsive */
 
 @media (max-width: 950px) {
-  .aboutUs .container {
-    flex-direction: column;
-    margin-top: 150px;
-  }
-
   .aboutUs .container .images {
     width: 100%;
   }
@@ -129,9 +124,6 @@
   }
 }
 @media (max-width: 750px) {
-  .aboutUs .container {
-    width: 95% !important;
-  }
   .aboutUs .aboutUs_text {
     margin-top: 25px;
   }

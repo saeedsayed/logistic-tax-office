@@ -595,10 +595,7 @@
   background-image: url("../assets/images/approch-bg4.png");
 }
 
-.Why_us .container {
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+.Why_us {
   padding: 50px 0;
 }
 .Why_us .container .why_text {

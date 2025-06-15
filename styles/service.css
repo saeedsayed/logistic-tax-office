@@ -1,4 +1,8 @@
 @import "./main.css";
+/* service detail section */
+.service-detail-section {
+  padding-block: 120px;
+}
 /* counter card */
 .counter-card {
   background-color: var(--light-blue-color);
@@ -18,11 +22,9 @@
     line-height: 18px;
     font-weight: 500;
 }
-/* service detail section */
-.service-detail-section {
-  padding-block: 120px;
+ul{
+  padding: 0;
 }
-
 .list-link {
   background-color: var(--light-blue-color);
   transition: all 0.3s ease;
@@ -107,5 +109,31 @@
   to {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
+  }
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+  .service-detail-section {
+    padding-block: 60px;
+  }
+  .counter-card {
+    padding: 20px 40px;
+    gap: 20px;
+    margin-block: 10px;
+  }
+  .counter-number h3 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .phone-banner {
+    padding: 30px;
+    gap: 30px;
+  }
+  .phone-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
   }
 }

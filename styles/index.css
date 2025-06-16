@@ -53,7 +53,7 @@
 
 .hero .container .text .audit h2::before {
   content: "";
-   position: absolute;
+  position: absolute;
   height: 15px;
   top: 50%;
   left: 0;
@@ -148,20 +148,12 @@
 
 /* end hero */
 
-.boxes {
-  position: relative;
-  margin-bottom: 300px;
-}
-
 .boxes .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  position: absolute;
-  top: -50px;
-  right: 0;
-  left: 0;
+  transform: translateY(-50px);
 }
 
 .boxes .container .box {
@@ -455,11 +447,11 @@
   transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
-.service-card::after{
-  content:"\2192";
+.service-card::after {
+  content: "\2192";
   position: absolute;
-  bottom:20px;
-  right:20px;
+  bottom: 20px;
+  right: 20px;
   font-size: 20px;
   color: var(--white-color);
   opacity: 0;
@@ -516,18 +508,18 @@
     line-height: 20px;
   }
   .service-card {
-  height: 220px;
-}
-.service-card_title {
-  padding: 10px;
-  font-size: 16px;
-  opacity: 1;
-  transform: translateY(0px);
-}
-.service-card::after {
-  opacity: 1;
-  transform: translateY(0);
-}
+    height: 220px;
+  }
+  .service-card_title {
+    padding: 10px;
+    font-size: 16px;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .service-card::after {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Happy Clients */
@@ -872,14 +864,12 @@
   /* height: 100vh; */
 }
 
-.contact .container {
-  display: flex;
-  padding-top: 85px;
+.contact {
+  padding-block: 85px;
   margin-bottom: 0;
 }
 
 .contact .container .contact_text {
-  width: 48%;
   margin-bottom: 0;
   padding: 40px 0;
 }
@@ -916,6 +906,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 55px;
+  row-gap: 20px;
 }
 .contact .container .contact_text .boxes .box {
   width: 50%;
@@ -936,7 +927,6 @@
 }
 
 .contact .container .call_back {
-  width: 44%;
   background-color: #444484;
   height: 100%;
   padding: 40px 40px;
@@ -977,10 +967,6 @@
 }
 
 @media (max-width: 950px) {
-  .contact .container {
-    flex-direction: column;
-    padding: 0 0;
-  }
 
   .contact .container .contact_text {
     width: 100%;
@@ -1033,19 +1019,19 @@
 
 /* footer */
 
-.text-logo{
+.text-logo {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 150px;
   height: 90px;
-  border-start-end-radius: 14px ;
+  border-start-end-radius: 14px;
   background-color: var(--white-color);
   /* add box-shadow here */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.466);
   z-index: 999;
   padding: 20px;
-  opacity:  0.7;
+  opacity: 0.7;
   transition: opacity 0.3s ease;
   &:hover {
     opacity: 1;

@@ -94,7 +94,7 @@ footer .container .box .order_list li a {
 }
 
 footer .container .box .order_list li a:hover {
-  color: #ff6d00;
+  color: #ff6d00 !important;
 }
 .footr_bottom {
   border-top: 1px solid #ffffff2a;

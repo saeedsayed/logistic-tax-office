@@ -382,11 +382,7 @@
                 <div class="service-card_image">
                   <img src="/assets/images/home/service-tax_bg.png" alt="" />
                 </div>
-                <a
-                  href="/en/services/tax-service.html"
-                  class="service-card_title"
-                  >VAT & Corporate Tax</a
-                >
+                <span class="service-card_title">VAT & Corporate Tax</span>
               </div>
             </div>
             <div class="col-lg-6">
@@ -397,11 +393,7 @@
                     alt=""
                   />
                 </div>
-                <a
-                  href="/en/services/accounting.html"
-                  class="service-card_title"
-                  >Accounting & Bookkeeping</a
-                >
+                <span class="service-card_title">Accounting & Bookkeeping</span>
               </div>
             </div>
           </div>
@@ -678,20 +670,35 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="call_back">
+              <form method="post" class="call_back" id="callback-form">
                 <h4></h4>
                 <h2>Request a <span>call</span> back</h2>
                 <div class="form_input">
-                  <input type="text" placeholder="Name" />
-                  <input type="email" placeholder="E-Mail" />
+                  <input type="text" name="name" placeholder="Name" required />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="E-Mail"
+                    required
+                  />
                 </div>
                 <div class="form_input">
-                  <input type="text" placeholder="Name" />
-                  <input type="email" placeholder="E-Mail" />
+                  <input
+                    type="number"
+                    name="phone"
+                    placeholder="Phone"
+                    required
+                  />
                 </div>
-                <textarea rows="5" placeholder="Yoor Message Here"></textarea>
+                <textarea
+                  rows="5"
+                  name="message"
+                  placeholder="Your Message Here"
+                  required
+                ></textarea>
                 <button class="btn">SUBMIT NOW</button>
-              </div>
+                <span id="req_result" class="text-white"></span>
+              </form>
             </div>
           </div>
         </div>
@@ -825,7 +832,10 @@
         <div class="footr_bottom">
           <div class="container">
             <p data-aos="fade-right" data-aos-offset="0">
-              &copy; 2025 Logistic Created By <a href="https://eng-saeed.netlify.app" target="_blank">Eng: Saeed</a>
+              &copy; 2025 Logistic Created By
+              <a href="https://eng-saeed.netlify.app" target="_blank"
+                >Eng: Saeed</a
+              >
             </p>
             <div class="links" data-aos="fade-left" data-aos-offset="0">
               <li>

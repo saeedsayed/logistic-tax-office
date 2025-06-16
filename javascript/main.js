@@ -61,14 +61,17 @@ openSidebarBtn.addEventListener("click", () => {
 });
 
 // function the form  || Reload
-const form = document.getElementById("form");
-const result = document.getElementById("result");
-
+const form = document.getElementById("callback-form");
+const result = document.getElementById("req_result");
+// aba87fc8-0cbf-4640-becf-d4b682a19083
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+  const access_key = "aba87fc8-0cbf-4640-becf-d4b682a19083";
   const formData = new FormData(form);
-  const object = Object.fromEntries(formData);
-  const json = JSON.stringify(object);
+  const requestObj = Object.fromEntries(formData);
+  requestObj.access_key = access_key;
+  requestObj.subject = "From Logistic Website";
+  const json = JSON.stringify(requestObj);
   result.innerHTML = "Please wait...";
 
   fetch("https://api.web3forms.com/submit", {
@@ -96,6 +99,6 @@ form.addEventListener("submit", function (e) {
       form.reset();
       setTimeout(() => {
         result.style.display = "none";
-      }, 3000);
+      }, 5000);
     });
 });

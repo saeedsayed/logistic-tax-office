@@ -259,21 +259,25 @@
               </div>
             </div>
           </div>
-          <div class="form_contact">
+          <form method="post" class="form_contact" id="callback-form">
             <h4></h4>
-            <h2>Request a <span>call </span>back</h2>
+            <h2>Request a <span>call</span> back</h2>
             <div class="input_form">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="E-Mail" />
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="E-Mail" required />
             </div>
             <div class="input_form">
-              <input type="number" placeholder="Phone Number" />
-              <input type="text" placeholder="Your Website" />
+              <input type="number" name="phone" placeholder="Phone" required />
             </div>
-
-            <textarea rows="5" placeholder="Your Message Here"></textarea>
-            <button>Submit Now</button>
-          </div>
+            <textarea
+              rows="5"
+              name="message"
+              placeholder="Your Message Here"
+              required
+            ></textarea>
+            <button>SUBMIT NOW</button>
+            <span id="req_result" class="text-white"></span>
+          </form>
         </div>
       </div>
       <!-- map -->

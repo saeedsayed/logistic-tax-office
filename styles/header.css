@@ -153,6 +153,7 @@
   transition: 0.4s;
   z-index: 1;
 }
+
 .btn:hover::before,
 .btn:hover:after {
   height: 100%;
@@ -166,6 +167,7 @@
 }
 
 /* none menu */
+
 .header .menu {
   font-size: 25px;
   color: white;
@@ -179,6 +181,7 @@
 /* header responsive */
 
 .sidebar {
+  display: none;
   position: fixed;
   right: -100%;
   top: 0;

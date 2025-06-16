@@ -310,7 +310,7 @@
         </div>
         <div class="text">
           <div class="aboutUs_text">
-            <h3></h3>
+            <span></span>
             <h4>ABOUT US</h4>
           </div>
           <h2>over 10 years of experience</h2>
@@ -610,7 +610,7 @@
     <section class="contact">
       <div class="container">
         <div class="contact_text">
-          <h4></h4>
+          <span class="line_top"></span>
           <h2>Let’s talk your business to</h2>
           <h2><span>move</span> forward.</h2>
           <p>Connect with Us: Let's Start a Conversation at Accounting</p>
@@ -656,20 +656,34 @@
             </div>
           </div>
         </div>
-        <div class="call_back">
-          <h4></h4>
+        <form method="POST" id="form" class="call_back">
+          <span class="line_top_form"></span>
           <h2>Request a <span>call</span> back</h2>
+          <!--  -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="aba87fc8-0cbf-4640-becf-d4b682a19083"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="New Submission from Web3Forms"
+          />
+          <input type="checkbox" name="botcheck" id="" style="display: none" />
+          <!--  -->
           <div class="form_input">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="E-Mail" />
+            <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="Email" placeholder="E-Mail" />
           </div>
           <div class="form_input">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="E-Mail" />
+            <input type="text" placeholder="Phone Number" name="number" />
+            <input type="text" placeholder="Your website" name="website" />
           </div>
           <textarea rows="5" placeholder="Yoor Message Here"></textarea>
-          <button class="btn">SUBMIT NOW</button>
-        </div>
+          <button class="btn" type="submit">SUBMIT NOW</button>
+          <div id="result"></div>
+        </form>
       </div>
     </section>
     <!-- footer -->

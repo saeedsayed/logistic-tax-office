@@ -22,6 +22,11 @@
 .header.active .links li a {
   color: #0a0a0a;
 }
+
+.header .links li a.active,
+.header.active .links li a.active {
+  color: var(--olive-color);
+}
 .header.active .links li a:hover {
   color: var(--olive-color);
 }
@@ -192,6 +197,7 @@
   height: 100vh;
   overflow-y: auto;
   transition: 0.8s;
+  z-index: 9;
 }
 
 .sidebar.active {
@@ -272,7 +278,7 @@
 
   .header .menu {
     padding: 0 25px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 }
 

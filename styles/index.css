@@ -148,12 +148,20 @@
 
 /* end hero */
 
+.boxes {
+  position: relative;
+  margin-bottom: 300px;
+}
+
 .boxes .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  transform: translateY(-50px);
+  position: absolute;
+  top: -50px;
+  right: 0;
+  left: 0;
 }
 
 .boxes .container .box {
@@ -587,7 +595,10 @@
   background-image: url("../assets/images/approch-bg4.png");
 }
 
-.Why_us {
+.Why_us .container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
   padding: 50px 0;
 }
 .Why_us .container .why_text {
@@ -864,12 +875,14 @@
   /* height: 100vh; */
 }
 
-.contact {
-  padding-block: 85px;
+.contact .container {
+  display: flex;
+  padding-top: 85px;
   margin-bottom: 0;
 }
 
 .contact .container .contact_text {
+  width: 48%;
   margin-bottom: 0;
   padding: 40px 0;
 }
@@ -919,7 +932,6 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 55px;
-  row-gap: 20px;
 }
 .contact .container .contact_text .boxes .box {
   width: 50%;
@@ -940,6 +952,7 @@
 }
 
 .contact .container .call_back {
+  width: 44%;
   background-color: #444484;
   height: 100%;
   padding: 40px 40px;
@@ -986,6 +999,10 @@
   font-family: var(--font-family);
 }
 @media (max-width: 950px) {
+  .contact .container {
+    flex-direction: column;
+    padding: 0 0;
+  }
 
   .contact .container .contact_text {
     width: 100%;

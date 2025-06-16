@@ -30,39 +30,34 @@
     />
     <link rel="stylesheet" href="../styles/index.css" />
   </head>
-
   <body>
-    <div class="page-wrapper">
-      <!-------------------------start-loading-pag------------------------->
-      <div class="main-loader">
-        <div class="pulse-logo">
-          <img src="../assets/images/logo.png" alt="logo" />
-        </div>
+    <!-------------------------start-loading-pag------------------------->
+    <div class="main-loader">
+      <div class="pulse-logo">
+        <img src="../assets/images/logo.png" alt="logo" />
       </div>
-      <div
-        class="text-logo"
-        data-aos="fade-right"
-        data-aos-delay="1000"
-        data-aos-offset="0"
-      >
-        <img src="/assets/images/logo.png" alt="" />
-      </div>
-      <!--Start header -->
-      <header
-        class="header"
-        id="header"
-        data-aos="fade-down"
-        data-aos-delay="600"
-      >
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <a class="logo" href="/">
-              <img src="../assets/images/logo.png" alt="" />
-            </a>
-            <!-- <div class="d-flex align-items-center gap-2"> -->
+    </div>
+
+    <div class="text-logo">
+      <img src="/assets/images/logo.png" alt="" />
+    </div>
+    <!--Start header -->
+
+    <header
+      class="header"
+      id="header"
+      data-aos="fade-down"
+      data-aos-delay="600"
+    >
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <a class="logo" href="/">
+            <img src="../assets/images/logo.png" alt="" />
+          </a>
+          <div>
             <ul class="links mb-0">
               <li>
-                <a href="/" class="active">home</a>
+                <a href="/">home</a>
               </li>
               <li>
                 <a href="/en/about.html"> About</a>
@@ -71,43 +66,38 @@
                 <li><a href="/en/services.html">Services</a></li>
                 <div class="drop_links">
                   <li>
-                    <a href="/en/services/business-continuity.html"
-                      >Business conftinuity plan Services</a
-                    >
+                    <a href="">Business conftinuity plan</a>
                   </li>
                   <li>
-                    <a href="/en/services/advisory.html">Advisory Services</a>
+                    <a href="">Advisory </a>
                   </li>
                   <li>
-                    <a href="/en/services/financial.html">Financial Services</a>
+                    <a href="">cost optimzation </a>
                   </li>
                   <li>
-                    <a href="/en/services/cost-optimization.html"
-                      >Cost Optimization Services</a
-                    >
+                    <a href="">Accounting Assurance</a>
                   </li>
                   <li>
-                    <a href="/en/services/regulatory-compliance.html"
-                      >Regulatory & Compliance Services</a
-                    >
+                    <a href="">regulatory compliance </a>
                   </li>
                   <li>
-                    <a href="/en/services/accounting.html"
-                      >Accounting Services</a
-                    >
+                    <a href="/en/services/accounting-service.html"
+                      >Accounting services
+                    </a>
                   </li>
                   <li>
-                    <a href="/en/services/risk-consulting.html"
-                      >Risk Consulting</a
-                    >
+                    <a href="">risk consulting </a>
+                  </li>
+                  <li>
+                    <a href="">human resorce services </a>
                   </li>
                 </div>
               </div>
               <li>
                 <a href="/en/contact.html">contact</a>
               </li>
+              <a href="/ar/index.html" class="btn">AR</a>
             </ul>
-            <a href="/ar/index.html" class="btn" title="Arabic Version">AR</a>
             <span class="menu" id="openSidebar">
               <i class="fa-solid fa-bars"></i>
             </span>
@@ -454,355 +444,6 @@
                 environment.
               </div>
             </div>
-            <!-- </div> -->
-          </div>
-        </div>
-        <!-- mobile nav -->
-        <div class="sidebar" id="sidebar">
-          <p class="close" id="closeSidebar">
-            <i class="fa-solid fa-xmark"></i>
-          </p>
-          <ul class="sidebar_links">
-            <li class="sidebar_links--item">
-              <a href="/" class="sidebar_links--link">home</a>
-            </li>
-            <li class="sidebar_links--item">
-              <a href="/en/about.html" class="sidebar_links--link">about</a>
-            </li>
-            <li class="sidebar_links--item">
-              <div class="d-flex justify-content-between" id="dropdown-btn">
-                <a href="/en/services.html" class="sidebar_links--link"
-                  >services</a
-                >
-                <i class="fa-solid fa-plus" id="service_plus"></i>
-                <i class="fa-solid fa-minus" id="service_minus"></i>
-              </div>
-              <ul class="sidebar_dropdown--menu" id="dropdown-menu">
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/business-continuity.html"
-                    class="sidebar_dropdown--link"
-                    >Business conftinuity plan Services</a
-                  >
-                </li>
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/advisory.html"
-                    class="sidebar_dropdown--link"
-                    >Advisory Services</a
-                  >
-                </li>
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/financial.html"
-                    class="sidebar_dropdown--link"
-                    >Financial Services</a
-                  >
-                </li>
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/cost-optimization.html"
-                    class="sidebar_dropdown--link"
-                    >Cost Optimization Services</a
-                  >
-                </li>
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/regulatory-compliance.html"
-                    class="sidebar_dropdown--link"
-                    >Regulatory & Compliance Services</a
-                  >
-                </li>
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/accounting.html"
-                    class="sidebar_dropdown--link"
-                    >Accounting Services</a
-                  >
-                </li>
-                <li class="sidebar_dropdown--item">
-                  <a
-                    href="/en/services/risk-consulting.html"
-                    class="sidebar_dropdown--link"
-                    >Risk Consulting</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="sidebar_links--item">
-              <a href="/en/contact.html" class="sidebar_links--link">contact</a>
-            </li>
-          </ul>
-          <div class="sidebar_contact--info">
-            <div class="icon">
-              <img src="./assets/images_Contact/assets (4).png" alt="" />
-            </div>
-            <div class="text">
-              <h3>Address</h3>
-              <li>Dubai | Abu Dhabi</li>
-            </div>
-          </div>
-          <div class="sidebar_contact--info">
-            <div class="icon">
-              <img src="./assets/images_Contact/assets (3).png" alt="" />
-            </div>
-            <div class="text">
-              <h3>Email</h3>
-              <li>Logistico2004@Logisticuae.com</li>
-            </div>
-          </div>
-          <div class="sidebar_contact--info">
-            <div class="icon">
-              <img src="./assets/images_Contact/assets (5).png" alt="" />
-            </div>
-            <div class="text">
-              <h3>Phone</h3>
-              <li>+97126222318</li>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!--end header -->
-      <!-- start hero -->
-      <section class="hero">
-        <div class="container">
-          <div class="text" data-aos="fade-right" data-aos-delay="600">
-            <div class="Accounting">
-              <h2>Your Accounting Partner</h2>
-            </div>
-            <h2>Unlocking Growth Through</h2>
-            <h2 class="after_bg">Precision Accounting</h2>
-            <p>
-              We are leading Accounting company all over the UAE doing over 10
-              years.
-            </p>
-            <a href="/en/contact.html" class="btn contactUs">Contact us</a>
-          </div>
-          <div class="slider">
-            <div
-              id="carouselExampleSlidesOnly_1"
-              class="carousel slide"
-              data-bs-ride="carousel"
-              data-bs-interval="2000"
-              data-bs-pause="false"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../assets/images/slide-1.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../assets/images/slide-2.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../assets/images/slide-3.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- end hero -->
-      <!-- start boxes -->
-      <section class="boxes">
-        <div class="container">
-          <div class="box" data-aos="fade-right">
-            <div class="icon">
-              <img src="../assets/images/1 (4).png" alt="" class="block" />
-              <img src="../assets/images/1 (3).png" alt="" class="none" />
-            </div>
-            <div class="text">
-              <h2>Unmatched Expertise</h2>
-              <p>
-                Benefit from our team's extensive experience and industry
-                knowledge, ensuring thorough and precise Accounting tailored to
-                your unique needs.
-              </p>
-            </div>
-          </div>
-          <div class="box bg">
-            <div class="icon">
-              <img src="../assets/images/2.png" alt="" />
-            </div>
-            <div class="text">
-              <h2>Commitment to Integrity</h2>
-              <p>
-                Trust in our unwavering dedication to honesty and transparency,
-                providing you with peace of mind and confidence.
-              </p>
-            </div>
-          </div>
-          <div class="box" data-aos="fade-left">
-            <div class="icon">
-              <img src="../assets/images/3 (2).png" alt="" class="block" />
-              <img src="../assets/images/3.png" alt="" class="none" />
-            </div>
-            <div class="text">
-              <h2>Personalized Service</h2>
-              <p>
-                Experience a client-centric approach that prioritizes your
-                satisfaction, with open communication, proactive support. Lorem
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- end boxes -->
-      <!-- start aboutUs -->
-      <section class="aboutUs">
-        <div class="container">
-          <div class="images" data-aos="fade-right">
-            <img src="../assets/images/about-4.png" alt="" />
-          </div>
-          <div class="text">
-            <div class="aboutUs_text">
-              <h3></h3>
-              <h4>ABOUT US</h4>
-            </div>
-            <h2>over 10 years of experience</h2>
-            <h2 class="before"><span>in</span> Accounting Services.</h2>
-            <p>
-              Logistic is a leading tax and accounting firm based in the United
-              Arab Emirates, offering a comprehensive range of financial,
-              accounting, and consultancy services tailored to meet the needs of
-              businesses and individuals across various sectors.
-            </p>
-            <div class="list">
-              <li>
-                <i class="fa-regular fa-circle-check"></i>
-                We embrace adaptability, constantly evolving to keep pace with
-                market changes.
-              </li>
-              <li>
-                <i class="fa-regular fa-circle-check"></i>
-                Our success is built on unwavering diligence & a deep commitment
-                to meeting our clients
-              </li>
-              <li>
-                <i class="fa-regular fa-circle-check"></i>
-                Central to our achievements are our valued employees, who are
-                the heartbeat of our organization.
-              </li>
-            </div>
-            <div class="experience">
-              <div>
-                <h2>2,500 +</h2>
-                <h3>happy clients</h3>
-              </div>
-              <h2 class="borders"></h2>
-              <div>
-                <h2>10 +</h2>
-                <h3>Years of Experience</h3>
-              </div>
-            </div>
-            <a class="btn" href="/en/about.html">READ MORE</a>
-          </div>
-        </div>
-      </section>
-      <!-- end aboutUs -->
-      <!-- start Our Services -->
-      <section class="our-services">
-        <div class="container">
-          <h3 class="our-services_title">Our services</h3>
-          <h4 class="our-services_subtitle">
-            Our Services Ensure Accuracy <br />
-            Compliance, and Trust
-          </h4>
-          <div class="row gy-3">
-            <div class="col-lg-6">
-              <div class="service-card">
-                <div class="service-card_image">
-                  <img src="/assets/images/home/service-tax_bg.png" alt="" />
-                </div>
-                <a
-                  href="/en/services/tax-service.html"
-                  class="service-card_title"
-                  >VAT & Corporate Tax</a
-                >
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="service-card">
-                <div class="service-card_image">
-                  <img
-                    src="/assets/images/home/service-accounting_bg.png"
-                    alt=""
-                  />
-                </div>
-                <a
-                  href="/en/services/accounting-service.html"
-                  class="service-card_title"
-                  >Accounting & Bookkeeping</a
-                >
-              </div>
-            </div>
-          </div>
-          <p class="mt-5 text-center">
-            We have all the services to help your business.
-            <a href="/en/services.html">VIew All Services &#8594;</a>
-          </p>
-        </div>
-      </section>
-      <!-- Happy Clients -->
-      <section class="happy_Clients" data-aos="fade-right">
-        <div class="container">
-          <div class="box">
-            <h2>10+</h2>
-            <p>Year of Experience</p>
-          </div>
-          <div class="box">
-            <h2>2,500+</h2>
-            <p>Happy Clients</p>
-          </div>
-          <div class="box">
-            <h2>12+</h2>
-            <p>Expert Team</p>
-          </div>
-        </div>
-      </section>
-      <!-- Why us -->
-      <section class="Why_us">
-        <div class="container">
-          <div class="d-md-flex justify-content-between">
-            <div class="why_text">
-              <div class="why_top">
-                <h3></h3>
-                <h4>Why Us</h4>
-              </div>
-              <h2>Unmatched Expertise,</h2>
-              <h2>Integrity, & Personalized</h2>
-              <h2>Service</h2>
-              <p>
-                We understand the importance of trust, integrity, and
-                reliability in the field of Accounting
-              </p>
-              <!--  -->
-              <div class="drop_container">
-                <div class="drobdwon" id="drobdwon">
-                  <div class="drop_text">
-                    <h2 id="drop_add">
-                      <i class="fa-solid fa-plus" id="plus"></i>
-                      <i class="fa-solid fa-minus" id="minus"></i>
-                      Vision
-                    </h2>
-                  </div>
-                  <div class="text_none text_black">
-                    A Poineer office in the field of Accounting, Financial and
-                    risk management systems that contribute value in a
-                    competitive environment.
-                  </div>
-                </div>
 
             <div class="drobdwonM">
               <div class="drop_textM">
@@ -1011,220 +652,6 @@
                 <p>Call us</p>
                 <p>Call us 02 622 2318</p>
                 <p>02 622 2319</p>
-                <div class="drobdwonM">
-                  <div class="drop_textM">
-                    <h2 id="drop_mission">
-                      <i class="fa-solid fa-plus" id="plusM"></i>
-                      <i class="fa-solid fa-minus" id="minusM"></i>
-                      MISSION
-                    </h2>
-                  </div>
-                  <div class="text_noneM">
-                    Managing and developing financial resources in the field of
-                    Accounting & Tax through active financial policies with
-                    local and international ties for the protection and safety
-                    of financial systems in accordance with the best procedures
-                    and risk management.
-                  </div>
-                </div>
-              </div>
-              <!--  -->
-            </div>
-            <div class="why_images" data-aos="fade-left">
-              <img src="../assets/images/about.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Our Testimonials -->
-      <section class="Our_Testimonials">
-        <div class="container">
-          <h3 class="our-services_title">What our clients</h3>
-          <h4 class="our-services_subtitle">
-            What our clients <br />
-            say about logistic
-          </h4>
-          <div
-            id="carouselExampleSlidesOnly_2"
-            class="carousel slide"
-            data-bs-ride="carousel"
-            data-bs-interval="3000"
-            data-bs-pause="false"
-          >
-            <div class="carousel-inner sliders">
-              <div class="carousel-item active items">
-                <div class="item">
-                  <div class="item1 item2">
-                    <div class="qute">
-                      <img src="../assets/images/quote.png" alt="" />
-                      <p>
-                        Working with Logistic Accounting has been a game-changer
-                        for our organization Their team's experitse and
-                        attention to detail have provided us with invluable
-                        insights and assurance. We trust Logistic Accounting to
-                        deliver exceptional results every
-                      </p>
-                    </div>
-                    <div class="image">
-                      <img src="../assets/images/1.png" alt="" />
-                      <h2>Name</h2>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                  <div class="item1">
-                    <div class="qute">
-                      <img src="../assets/images/quote.png" alt="" />
-                      <p>
-                        Choosing Logistic was one of the best descisions we made
-                        for our business. Their team's expertise and dedication
-                        to excellence have been instrumental in helping us
-                        maintain copliance and improve aour financial processes.
-                        We couldn't be happier with the service we've received.
-                      </p>
-                    </div>
-                    <div class="image">
-                      <img src="../assets/images/1.png" alt="" />
-                      <h2>Name</h2>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item items">
-                <div class="item">
-                  <div class="item1 item2">
-                    <div class="qute">
-                      <img src="../assets/images/quote.png" alt="" />
-                      <p>
-                        We've been working with Logistic Accounting for several
-                        years now, and they consistently deliver outstanding
-                        results. Their depth of knowledge, professionalism, and
-                        responsiveness set them apart from other Accountinging
-                        firms. Logistic Accounting truly feels like an extension
-                        of our team.
-                      </p>
-                    </div>
-                    <div class="image">
-                      <img src="../assets/images/1.png" alt="" />
-                      <h2>Name</h2>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                  <div class="item1">
-                    <div class="qute">
-                      <img src="../assets/images/quote.png" alt="" />
-                      <p>
-                        Logistic Accounting's team went above and beyond to
-                        ensure our Accounting process was seamless and
-                        stress-free. Their proactive communication and
-                        personalized approach made us feel confident in their
-                        abilities. We look forward to continuing our partnership
-                        with Logistic Accounting in the future.
-                      </p>
-                    </div>
-                    <div class="image">
-                      <img src="../assets/images/1.png" alt="" />
-                      <h2>Name</h2>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item items">
-                <div class="item">
-                  <div class="item1 item2">
-                    <div class="qute">
-                      <img src="../assets/images/quote.png" alt="" />
-                      <p>
-                        As a nonprofit organization, we rely on Logistic
-                        Accounting for a wide range of financial and HR
-                        services, including Accounting, VAT registration,
-                        corporate tax planning, and HR consultancy. Their team's
-                        depth of knowledge and personalized approach have made
-                        them an indispensable partner in our mission-driven work
-                      </p>
-                    </div>
-                    <div class="image">
-                      <img src="../assets/images/1.png" alt="" />
-                      <h2>Name</h2>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                  <div class="item1">
-                    <div class="qute">
-                      <img src="../assets/images/quote.png" alt="" />
-                      <p>
-                        Working with Logistic Accounting has been a game-changer
-                        for our organization. Their team's expertise and
-                        attention to detail have provided us with invaluable
-                        insights and assurance. We trust Logistic Accounting to
-                        deliver exceptional results every time.
-                      </p>
-                    </div>
-                    <div class="image">
-                      <img src="../assets/images/1.png" alt="" />
-                      <h2>Name</h2>
-                      <p>Company</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Request -->
-      <section class="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="contact_text">
-                <h4></h4>
-                <h2>Let’s talk your business to</h2>
-                <h2><span>move</span> forward.</h2>
-                <p>Connect with Us: Let's Start a Conversation at Accounting</p>
-                <div class="boxes">
-                  <div class="box">
-                    <div class="icon">
-                      <img src="/assets/images/icons/location-map.png" alt="" />
-                    </div>
-                    <div class="text">
-                      <a
-                        href="https://maps.app.goo.gl/AesyX9rtFRLp1nSx8"
-                        target="_blank"
-                        class="text-white"
-                      >
-                        <span class="fw-bold">AL AIN , ABU DHABI</span> <br />
-                        United Arab <br />
-                        Emirates
-                      </a>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="icon">
-                      <img src="/assets/images/icons/chat.png" alt="" />
-                    </div>
-                    <div class="text">
-                      <p class="fw-bold">Email us</p>
-                      <a
-                        href="mailto:LOGISTIC_TAX@HOTMAIL.COM"
-                        class="text-white"
-                        >LOGISTIC_TAX@HOTMAIL.COM</a
-                      >
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="icon">
-                      <img src="/assets/images/icons/call.png" alt="" />
-                    </div>
-                    <div class="text">
-                      <p class="fw-bold">Call us</p>
-                      <a href="tel:+971501077024" class="text-white">
-                        +971501077024
-                      </a>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1232,7 +659,6 @@
         <form method="POST" id="form" class="call_back">
           <span class="line_top_form"></span>
           <h2>Request a <span>call</span> back</h2>
-          <!--  -->
           <input
             type="hidden"
             name="access_key"
@@ -1244,14 +670,13 @@
             value="New Submission from Web3Forms"
           />
           <input type="checkbox" name="botcheck" id="" style="display: none" />
-          <!--  -->
           <div class="form_input">
             <input type="text" name="name" placeholder="Name" />
-            <input type="email" name="Email" placeholder="E-Mail" />
+            <input type="email" name="email" placeholder="E-Mail" />
           </div>
           <div class="form_input">
-            <input type="text" placeholder="Phone Number" name="number" />
-            <input type="text" placeholder="Your website" name="website" />
+            <input type="number" name="number" placeholder="Phone Number" />
+            <input type="text" name="subject" placeholder="Your Subject" />
           </div>
           <textarea rows="5" placeholder="Yoor Message Here"></textarea>
           <button class="btn" type="submit">SUBMIT NOW</button>
@@ -1305,174 +730,79 @@
         <div class="box" data-aos="fade-down">
           <h2>Contact Info</h2>
           <h3></h3>
-            <div class="col-lg-6">
-              <div class="call_back">
-                <h4></h4>
-                <h2>Request a <span>call</span> back</h2>
-                <div class="form_input">
-                  <input type="text" placeholder="Name" />
-                  <input type="email" placeholder="E-Mail" />
-                </div>
-                <div class="form_input">
-                  <input type="text" placeholder="Name" />
-                  <input type="email" placeholder="E-Mail" />
-                </div>
-                <textarea rows="5" placeholder="Yoor Message Here"></textarea>
-                <button class="btn">SUBMIT NOW</button>
-              </div>
-            </div>
+
+          <div class="order_list">
+            <li>
+              <i class="fa-solid fa-house-user"></i>
+              pAbu Dhabi, <br />
+              United Arab <br />
+              Emarates
+            </li>
+            <li>
+              <i class="fa-solid fa-phone-volume"></i>
+              <a href="tel:"> 0097156465484 </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="email:ahmed@gmail.com">ahmed@gmail.com</a>
+            </li>
           </div>
         </div>
-      </section>
-      <!-- footer -->
-      <footer>
+        <div class="box" data-aos="fade-down">
+          <h2>Featured Services</h2>
+          <h3></h3>
+
+          <div class="order_list">
+            <li>Advisory</li>
+            <li>Accounting Service</li>
+            <li>Accounting</li>
+            <li>Cost Effective</li>
+            <li>Business Planning</li>
+          </div>
+        </div>
+        <div class="box" data-aos="fade-down">
+          <h2>Recent Articles</h2>
+          <h3></h3>
+          <div class="order_list">
+            <li>
+              <a href="">How Accounting in dependend your business growth.</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              March 09,2024
+            </li>
+            <li>
+              <a href="">How Accounting in dependend your business growth.</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              March 09,2024
+            </li>
+          </div>
+        </div>
+      </div>
+      <div class="footr_bottom">
         <div class="container">
-          <div class="box" data-aos="fade-down">
-            <h2>About Company</h2>
-            <h3></h3>
-            <p>
-              Welcome to Logistic, where expertise meets commitment to elevate
-              your organization's potential.
-            </p>
-            <ul class="list">
-              <li>
-                <a
-                  href="https://www.facebook.com/profile.php?id=61577035547110"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com/Logistictax" target="_blank">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://www.linkedin.com/in/logistic-accounting-and-tax-solutions-03790236b"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.snapchat.com/add/logistic_tax"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-snapchat"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/logistic_tax/"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="box" data-aos="fade-down">
-            <h2>Contact Info</h2>
-            <h3></h3>
-
-            <div class="order_list">
-              <li>
-                <i class="fa-solid fa-house-user"></i>
-                <a
-                  href="https://maps.app.goo.gl/AesyX9rtFRLp1nSx8"
-                  target="_blank"
-                  class="text-white hover:text-primary"
-                >
-                  <span class="fw-bold">AL AIN , ABU DHABI</span> <br />
-                  United Arab <br />
-                  Emirates
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-phone-volume"></i>
-                <a href="tel:+971501077024"> +971501077024 </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-envelope"></i>
-                <a href="email:LOGISTIC_TAX@HOTMAIL.COM"
-                  >LOGISTIC_TAX@HOTMAIL.COM</a
-                >
-              </li>
-            </div>
-          </div>
-          <div class="box" data-aos="fade-down">
-            <h2>Featured Services</h2>
-            <h3></h3>
-            <div class="order_list">
-              <li>
-                <a href="/en/services/advisory.html">Advisory</a>
-              </li>
-              <li>
-                <a href="/en/services/accounting.html">Accounting Service</a>
-              </li>
-              <li>
-                <a href="en/services/financial.html">Financial Services</a>
-              </li>
-              <li>
-                <a href="en/services/cost-optimization.html"
-                  >Cost Optimization</a
-                >
-              </li>
-              <li>
-                <a href="/en/services/business-continuity.html"
-                  >Business Planning
-                </a>
-              </li>
-            </div>
-          </div>
-          <div class="box" data-aos="fade-down">
-            <h2>Recent Articles</h2>
-            <h3></h3>
-
-            <div class="order_list">
-              <li>
-                <a href="">How Accounting in dependend your business growth.</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-calendar-days"></i>
-                March 09,2024
-              </li>
-              <li>
-                <a href="">How Accounting in dependend your business growth.</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-calendar-days"></i>
-                March 09,2024
-              </li>
-            </div>
+          <p data-aos="fade-right" data-aos-offset="0">
+            &copy; 2024 Logistic Accounting Designed By AH Digi
+          </p>
+          <div class="links" data-aos="fade-left" data-aos-offset="0">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/en/about.html">About</a>
+            </li>
+            <li>
+              <a href="./en/services.html">Services</a>
+            </li>
+            <li>
+              <a href="/en/contact.html">Contact</a>
+            </li>
           </div>
         </div>
-        <div class="footr_bottom">
-          <div class="container">
-            <p data-aos="fade-right" data-aos-offset="0">
-              &copy; 2025 Logistic Created By <a href="https://eng-saeed.netlify.app" target="_blank">Eng: Saeed</a>
-            </p>
-            <div class="links" data-aos="fade-left" data-aos-offset="0">
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/en/about.html">About</a>
-              </li>
-              <li>
-                <a href="./en/services.html">Services</a>
-              </li>
-              <li>
-                <a href="/en/contact.html">Contact</a>
-              </li>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     <!-- js BOOTSTRAP V5.0.1 -->
     <script

@@ -61,13 +61,6 @@ openSidebarBtn.addEventListener("click", () => {
 });
 
 // function the form  || Reload
-
-// var form = document.getElementById("onSubmit");
-// var result = document.getElementById("result");
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-// });
-
 const form = document.getElementById("form");
 const result = document.getElementById("result");
 

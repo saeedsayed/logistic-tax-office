@@ -9,7 +9,7 @@
 /* hero */
 
 .hero {
-  background-image: url("../assets/images/banner-4.png");
+  background-image: url("../assets/images/home/banner-4.webp");
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -402,7 +402,7 @@
 .our-services {
   margin-top: 50px;
   padding: 150px 0;
-  background-image: url("/assets/images/home/sections-bg.png");
+  background-image: url("/assets/images/home/sections-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -526,7 +526,7 @@
 
 .happy_Clients {
   margin-top: 50px;
-  background-image: url("../assets/images/choose-bg.jpg");
+  background-image: url("/assets/images/home/choose-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -764,7 +764,7 @@
 
 .Our_Testimonials {
   margin-top: 50px;
-  background-image: url("/assets/images/home/sections-bg.png");
+  background-image: url("/assets/images/home/sections-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
@@ -858,7 +858,7 @@
 
 .contact {
   margin-top: 50px;
-  background-image: url("../assets/images/contact-bg.jpg");
+  background-image: url("../assets/images/home/contact-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 100vh; */

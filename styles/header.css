@@ -26,9 +26,7 @@
 .header .links li a.active,
 .header.active .links li a.active {
   color: var(--olive-color);
-}
-.header.active .links li a:hover {
-  color: var(--olive-color);
+  font-weight: 700;
 }
 .header.active .btn {
   background-color: #0a0a0a;

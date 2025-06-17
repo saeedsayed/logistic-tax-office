@@ -190,25 +190,22 @@
   font-family: var(--font-family);
 }
 
-.boxes .container .box .icon {
-  position: relative;
+.boxes .container .box .icon img {
+  width: 70px;
+  max-width: unset;
 }
 
 .boxes .container .box .icon .block {
-  opacity: 1;
+  display: block;
 }
 .boxes .container .box:hover .icon .block {
-  opacity: 0;
+  display: none;
 }
 .boxes .container .box:hover .none {
-  opacity: 1;
+  display: block;
 }
 .boxes .container .box .none {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
+ display: none;
 }
 
 /* Responsive */

@@ -443,31 +443,9 @@
 .service-card {
   position: relative;
   width: 100%;
-  height: 370px;
+  height: 270px;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-}
-.service-card::after {
-  content: "\2192";
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  font-size: 20px;
-  color: var(--white-color);
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--orange-color);
-  display: flex;
-  justify-content: center;
-  line-height: 38px;
-  transform: translateX(20px);
-}
-.service-card:hover::after {
-  opacity: 1;
-  transform: translateY(0);
 }
 .service-card_image {
   width: 100%;
@@ -512,7 +490,7 @@
   }
   .service-card_title {
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     opacity: 1;
     transform: translateY(0px);
   }
@@ -532,13 +510,7 @@
   background-size: cover;
   border-radius: 0 150px 0 0;
   padding: 50px;
-}
-
-.happy_Clients .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  color: var(--white-color);
 }
 
 .happy_Clients .container .box {
